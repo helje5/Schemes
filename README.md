@@ -1,4 +1,8 @@
-# Schemes
+<h2>
+  Schemes
+  <img width="64" alt="Schemes Application Icon" align="right"
+       src="https://user-images.githubusercontent.com/7712892/162421691-c6638e8f-f99c-45bf-a23d-59dd98e31857.png" />
+</h2>
 
 "Schemes" lists all the schemes and their handlers that are registered via 
 [Launch Services](https://developer.apple.com/documentation/coreservices/launch_services)
