@@ -7,235 +7,180 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A7006299270A1EA3007D13DD /* Entry.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7006298270A1EA3007D13DD /* Entry.swift */; };
-		A70F1262270B76ED00559406 /* UnregisterSchemeHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = A70F1261270B76ED00559406 /* UnregisterSchemeHandler.swift */; };
-		A70F1264270B76ED00559406 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = A70F1263270B76ED00559406 /* main.swift */; };
-		A70F1268270B76ED00559406 /* UnregisterSchemeHandler.xpc in CopyFiles */ = {isa = PBXBuildFile; fileRef = A70F125D270B76ED00559406 /* UnregisterSchemeHandler.xpc */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		A70F126C270B780800559406 /* UnregisterSchemeHandlerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A70F125F270B76ED00559406 /* UnregisterSchemeHandlerProtocol.swift */; };
-		A70F126D270B7A1600559406 /* UnregisterSchemeHandlerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A70F1260270B76ED00559406 /* UnregisterSchemeHandlerDelegate.swift */; };
-		A78D7CC02711991700CE2313 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = A78D7CBF2711991700CE2313 /* Credits.rtf */; };
-		A7CCF56A270A021B0087280A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7CCF569270A021B0087280A /* AppDelegate.swift */; };
-		A7CCF56C270A021C0087280A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7CCF56B270A021C0087280A /* Assets.xcassets */; };
-		A7CCF56F270A021C0087280A /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7CCF56D270A021C0087280A /* MainMenu.xib */; };
-		A7CCF57A270A025E0087280A /* MainWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7CCF578270A025E0087280A /* MainWindowController.swift */; };
-		A7CCF57B270A025E0087280A /* MainWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7CCF579270A025E0087280A /* MainWindowController.xib */; };
-		A7CCF57E270A026C0087280A /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7CCF57C270A026C0087280A /* MainViewController.swift */; };
-		A7CCF57F270A026C0087280A /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7CCF57D270A026C0087280A /* MainViewController.xib */; };
-		A7CCF582270A03440087280A /* Sparkle in Frameworks */ = {isa = PBXBuildFile; productRef = A7CCF581270A03440087280A /* Sparkle */; };
-		A7CCF589270A03FA0087280A /* org.sparkle-project.InstallerLauncher.xpc in CopyFiles */ = {isa = PBXBuildFile; fileRef = A7CCF584270A03BC0087280A /* org.sparkle-project.InstallerLauncher.xpc */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		A7CCF58A270A03FA0087280A /* org.sparkle-project.Downloader.xpc in CopyFiles */ = {isa = PBXBuildFile; fileRef = A7CCF586270A03D60087280A /* org.sparkle-project.Downloader.xpc */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		E839646A27FDDD5D00DA1188 /* SchemeHandlerTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E839646927FDDD5D00DA1188 /* SchemeHandlerTableVC.swift */; };
+		E839646D27FDE51F00DA1188 /* KeyPathArrayDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = E839646C27FDE51F00DA1188 /* KeyPathArrayDataSource.swift */; };
+		E839647427FDE82400DA1188 /* SchemesToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E839647327FDE82400DA1188 /* SchemesToolbar.swift */; };
+		E848E30527FF180700F92C3C /* AppInspector.swift in Sources */ = {isa = PBXBuildFile; fileRef = E848E30427FF180700F92C3C /* AppInspector.swift */; };
+		E848E30727FF196D00F92C3C /* SchemeHandlerTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E848E30627FF196D00F92C3C /* SchemeHandlerTableView.swift */; };
+		E848E30927FF1F8600F92C3C /* SchemeHandlerList.swift in Sources */ = {isa = PBXBuildFile; fileRef = E848E30827FF1F8600F92C3C /* SchemeHandlerList.swift */; };
+		E848E30B27FF29A200F92C3C /* SchemeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E848E30A27FF29A200F92C3C /* SchemeCell.swift */; };
+		E872B272280031F800D1D3F3 /* HandlerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E872B271280031F800D1D3F3 /* HandlerCell.swift */; };
+		E8C0243227FDBC4B00EDE498 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8C0243127FDBC4B00EDE498 /* Assets.xcassets */; };
+		E8C0243527FDBC4B00EDE498 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8C0243427FDBC4B00EDE498 /* Preview Assets.xcassets */; };
+		E8C0244027FDBC8D00EDE498 /* SchemesUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8C0243E27FDBC8D00EDE498 /* SchemesUIApp.swift */; };
+		E8C0244127FDBC8E00EDE498 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8C0243F27FDBC8D00EDE498 /* ContentView.swift */; };
+		E8C0244427FDBCA700EDE498 /* Entry.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8C0244327FDBCA700EDE498 /* Entry.swift */; };
+		E8C0244627FDBD1A00EDE498 /* URLExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8C0244527FDBD1A00EDE498 /* URLExtensions.swift */; };
+		E8C0244827FDBD8300EDE498 /* LaunchServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8C0244727FDBD8300EDE498 /* LaunchServices.swift */; };
+		E8C0244A27FDC00000EDE498 /* LaunchServicesFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8C0244927FDC00000EDE498 /* LaunchServicesFunctions.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		A70F1266270B76ED00559406 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A7CCF55E270A021B0087280A /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A70F125C270B76ED00559406;
-			remoteInfo = UnregisterSchemeHandler;
-		};
-/* End PBXContainerItemProxy section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		A7CCF588270A03F00087280A /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "$(CONTENTS_FOLDER_PATH)/XPCServices";
-			dstSubfolderSpec = 16;
-			files = (
-				A70F1268270B76ED00559406 /* UnregisterSchemeHandler.xpc in CopyFiles */,
-				A7CCF589270A03FA0087280A /* org.sparkle-project.InstallerLauncher.xpc in CopyFiles */,
-				A7CCF58A270A03FA0087280A /* org.sparkle-project.Downloader.xpc in CopyFiles */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
-		A7006298270A1EA3007D13DD /* Entry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entry.swift; sourceTree = "<group>"; };
-		A70F125D270B76ED00559406 /* UnregisterSchemeHandler.xpc */ = {isa = PBXFileReference; explicitFileType = "wrapper.xpc-service"; includeInIndex = 0; path = UnregisterSchemeHandler.xpc; sourceTree = BUILT_PRODUCTS_DIR; };
-		A70F125F270B76ED00559406 /* UnregisterSchemeHandlerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnregisterSchemeHandlerProtocol.swift; sourceTree = "<group>"; };
-		A70F1260270B76ED00559406 /* UnregisterSchemeHandlerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnregisterSchemeHandlerDelegate.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
-		A70F1261270B76ED00559406 /* UnregisterSchemeHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnregisterSchemeHandler.swift; sourceTree = "<group>"; };
-		A70F1263270B76ED00559406 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		A70F1265270B76ED00559406 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A78D7CBF2711991700CE2313 /* Credits.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = Credits.rtf; sourceTree = "<group>"; };
-		A7CCF566270A021B0087280A /* Schemes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Schemes.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A7CCF569270A021B0087280A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A7CCF56B270A021C0087280A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A7CCF56E270A021C0087280A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		A7CCF570270A021C0087280A /* Schemes.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Schemes.entitlements; sourceTree = "<group>"; };
-		A7CCF578270A025E0087280A /* MainWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainWindowController.swift; sourceTree = "<group>"; };
-		A7CCF579270A025E0087280A /* MainWindowController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindowController.xib; sourceTree = "<group>"; };
-		A7CCF57C270A026C0087280A /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
-		A7CCF57D270A026C0087280A /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
-		A7CCF584270A03BC0087280A /* org.sparkle-project.InstallerLauncher.xpc */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.xpc-service"; path = "org.sparkle-project.InstallerLauncher.xpc"; sourceTree = "<group>"; };
-		A7CCF586270A03D60087280A /* org.sparkle-project.Downloader.xpc */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.xpc-service"; path = "org.sparkle-project.Downloader.xpc"; sourceTree = "<group>"; };
-		A7CCF58B270A049A0087280A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		E839646927FDDD5D00DA1188 /* SchemeHandlerTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchemeHandlerTableVC.swift; sourceTree = "<group>"; };
+		E839646C27FDE51F00DA1188 /* KeyPathArrayDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyPathArrayDataSource.swift; sourceTree = "<group>"; };
+		E839647327FDE82400DA1188 /* SchemesToolbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchemesToolbar.swift; sourceTree = "<group>"; };
+		E83A71E0280040A100A7115C /* Schemes.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Schemes.entitlements; sourceTree = "<group>"; };
+		E848E30427FF180700F92C3C /* AppInspector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppInspector.swift; sourceTree = "<group>"; };
+		E848E30627FF196D00F92C3C /* SchemeHandlerTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchemeHandlerTableView.swift; sourceTree = "<group>"; };
+		E848E30827FF1F8600F92C3C /* SchemeHandlerList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchemeHandlerList.swift; sourceTree = "<group>"; };
+		E848E30A27FF29A200F92C3C /* SchemeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchemeCell.swift; sourceTree = "<group>"; };
+		E872B271280031F800D1D3F3 /* HandlerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandlerCell.swift; sourceTree = "<group>"; };
+		E8C0242A27FDBC4A00EDE498 /* Schemes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Schemes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8C0243127FDBC4B00EDE498 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E8C0243427FDBC4B00EDE498 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E8C0243E27FDBC8D00EDE498 /* SchemesUIApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SchemesUIApp.swift; sourceTree = "<group>"; };
+		E8C0243F27FDBC8D00EDE498 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E8C0244327FDBCA700EDE498 /* Entry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entry.swift; sourceTree = "<group>"; };
+		E8C0244527FDBD1A00EDE498 /* URLExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLExtensions.swift; sourceTree = "<group>"; };
+		E8C0244727FDBD8300EDE498 /* LaunchServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchServices.swift; sourceTree = "<group>"; };
+		E8C0244927FDC00000EDE498 /* LaunchServicesFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchServicesFunctions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		A70F125A270B76ED00559406 /* Frameworks */ = {
+		E8C0242727FDBC4A00EDE498 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A7CCF563270A021B0087280A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A7CCF582270A03440087280A /* Sparkle in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		A7006297270A1E6D007D13DD /* Model */ = {
+		E848E30327FF17EB00F92C3C /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				A7006298270A1EA3007D13DD /* Entry.swift */,
+				E848E30627FF196D00F92C3C /* SchemeHandlerTableView.swift */,
+				E848E30827FF1F8600F92C3C /* SchemeHandlerList.swift */,
+				E848E30A27FF29A200F92C3C /* SchemeCell.swift */,
+				E872B271280031F800D1D3F3 /* HandlerCell.swift */,
+				E848E30427FF180700F92C3C /* AppInspector.swift */,
 			);
-			path = Model;
+			path = Views;
 			sourceTree = "<group>";
 		};
-		A70F125E270B76ED00559406 /* UnregisterSchemeHandler */ = {
+		E872B2732800325800D1D3F3 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
-				A70F125F270B76ED00559406 /* UnregisterSchemeHandlerProtocol.swift */,
-				A70F1260270B76ED00559406 /* UnregisterSchemeHandlerDelegate.swift */,
-				A70F1261270B76ED00559406 /* UnregisterSchemeHandler.swift */,
-				A70F1263270B76ED00559406 /* main.swift */,
-				A70F1265270B76ED00559406 /* Info.plist */,
+				E8C0244927FDC00000EDE498 /* LaunchServicesFunctions.swift */,
+				E8C0244527FDBD1A00EDE498 /* URLExtensions.swift */,
 			);
-			path = UnregisterSchemeHandler;
+			path = Utilities;
 			sourceTree = "<group>";
 		};
-		A7CCF55D270A021B0087280A = {
+		E8C0242127FDBC4A00EDE498 = {
 			isa = PBXGroup;
 			children = (
-				A7CCF568270A021B0087280A /* Schemes */,
-				A70F125E270B76ED00559406 /* UnregisterSchemeHandler */,
-				A7CCF567270A021B0087280A /* Products */,
+				E8C0243C27FDBC8D00EDE498 /* Sources */,
+				E8C0242C27FDBC4A00EDE498 /* Schemes */,
+				E8C0242B27FDBC4A00EDE498 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		A7CCF567270A021B0087280A /* Products */ = {
+		E8C0242B27FDBC4A00EDE498 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A7CCF566270A021B0087280A /* Schemes.app */,
-				A70F125D270B76ED00559406 /* UnregisterSchemeHandler.xpc */,
+				E8C0242A27FDBC4A00EDE498 /* Schemes.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A7CCF568270A021B0087280A /* Schemes */ = {
+		E8C0242C27FDBC4A00EDE498 /* Schemes */ = {
 			isa = PBXGroup;
 			children = (
-				A7CCF58B270A049A0087280A /* Info.plist */,
-				A78D7CBF2711991700CE2313 /* Credits.rtf */,
-				A7CCF583270A037C0087280A /* XPC Services */,
-				A7CCF577270A02440087280A /* Support Files */,
-				A7006297270A1E6D007D13DD /* Model */,
-				A7CCF576270A023D0087280A /* NIB Files */,
-				A7CCF569270A021B0087280A /* AppDelegate.swift */,
-				A7CCF578270A025E0087280A /* MainWindowController.swift */,
-				A7CCF57C270A026C0087280A /* MainViewController.swift */,
-				A7CCF570270A021C0087280A /* Schemes.entitlements */,
+				E8C0243127FDBC4B00EDE498 /* Assets.xcassets */,
+				E83A71E0280040A100A7115C /* Schemes.entitlements */,
+				E8C0243327FDBC4B00EDE498 /* Preview Content */,
 			);
 			path = Schemes;
 			sourceTree = "<group>";
 		};
-		A7CCF576270A023D0087280A /* NIB Files */ = {
+		E8C0243327FDBC4B00EDE498 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				A7CCF56D270A021C0087280A /* MainMenu.xib */,
-				A7CCF579270A025E0087280A /* MainWindowController.xib */,
-				A7CCF57D270A026C0087280A /* MainViewController.xib */,
+				E8C0243427FDBC4B00EDE498 /* Preview Assets.xcassets */,
 			);
-			path = "NIB Files";
+			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		A7CCF577270A02440087280A /* Support Files */ = {
+		E8C0243C27FDBC8D00EDE498 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				A7CCF56B270A021C0087280A /* Assets.xcassets */,
+				E8C0243D27FDBC8D00EDE498 /* Schemes */,
 			);
-			path = "Support Files";
+			path = Sources;
+			sourceTree = SOURCE_ROOT;
+		};
+		E8C0243D27FDBC8D00EDE498 /* Schemes */ = {
+			isa = PBXGroup;
+			children = (
+				E8C0243E27FDBC8D00EDE498 /* SchemesUIApp.swift */,
+				E8C0243F27FDBC8D00EDE498 /* ContentView.swift */,
+				E839647327FDE82400DA1188 /* SchemesToolbar.swift */,
+				E839646927FDDD5D00DA1188 /* SchemeHandlerTableVC.swift */,
+				E848E30327FF17EB00F92C3C /* Views */,
+				E8C0244227FDBC9D00EDE498 /* Model */,
+				E872B2732800325800D1D3F3 /* Utilities */,
+			);
+			path = Schemes;
 			sourceTree = "<group>";
 		};
-		A7CCF583270A037C0087280A /* XPC Services */ = {
+		E8C0244227FDBC9D00EDE498 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				A7CCF584270A03BC0087280A /* org.sparkle-project.InstallerLauncher.xpc */,
-				A7CCF586270A03D60087280A /* org.sparkle-project.Downloader.xpc */,
+				E8C0244727FDBD8300EDE498 /* LaunchServices.swift */,
+				E8C0244327FDBCA700EDE498 /* Entry.swift */,
+				E839646C27FDE51F00DA1188 /* KeyPathArrayDataSource.swift */,
 			);
-			path = "XPC Services";
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A70F125C270B76ED00559406 /* UnregisterSchemeHandler */ = {
+		E8C0242927FDBC4A00EDE498 /* Schemes */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A70F126B270B76ED00559406 /* Build configuration list for PBXNativeTarget "UnregisterSchemeHandler" */;
+			buildConfigurationList = E8C0243927FDBC4B00EDE498 /* Build configuration list for PBXNativeTarget "Schemes" */;
 			buildPhases = (
-				A70F1259270B76ED00559406 /* Sources */,
-				A70F125A270B76ED00559406 /* Frameworks */,
-				A70F125B270B76ED00559406 /* Resources */,
+				E8C0242627FDBC4A00EDE498 /* Sources */,
+				E8C0242727FDBC4A00EDE498 /* Frameworks */,
+				E8C0242827FDBC4A00EDE498 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-			);
-			name = UnregisterSchemeHandler;
-			productName = UnregisterSchemeHandler;
-			productReference = A70F125D270B76ED00559406 /* UnregisterSchemeHandler.xpc */;
-			productType = "com.apple.product-type.xpc-service";
-		};
-		A7CCF565270A021B0087280A /* Schemes */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = A7CCF573270A021C0087280A /* Build configuration list for PBXNativeTarget "Schemes" */;
-			buildPhases = (
-				A7CCF562270A021B0087280A /* Sources */,
-				A7CCF563270A021B0087280A /* Frameworks */,
-				A7CCF564270A021B0087280A /* Resources */,
-				A7CCF588270A03F00087280A /* CopyFiles */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				A70F1267270B76ED00559406 /* PBXTargetDependency */,
 			);
 			name = Schemes;
-			packageProductDependencies = (
-				A7CCF581270A03440087280A /* Sparkle */,
-			);
-			productName = Schemes;
-			productReference = A7CCF566270A021B0087280A /* Schemes.app */;
+			productName = SchemesUI;
+			productReference = E8C0242A27FDBC4A00EDE498 /* Schemes.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		A7CCF55E270A021B0087280A /* Project object */ = {
+		E8C0242227FDBC4A00EDE498 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1300;
-				LastUpgradeCheck = 1300;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1330;
 				TargetAttributes = {
-					A70F125C270B76ED00559406 = {
-						CreatedOnToolsVersion = 13.0;
-					};
-					A7CCF565270A021B0087280A = {
-						CreatedOnToolsVersion = 13.0;
+					E8C0242927FDBC4A00EDE498 = {
+						CreatedOnToolsVersion = 13.2.1;
 					};
 				};
 			};
-			buildConfigurationList = A7CCF561270A021B0087280A /* Build configuration list for PBXProject "Schemes" */;
+			buildConfigurationList = E8C0242527FDBC4A00EDE498 /* Build configuration list for PBXProject "Schemes" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -243,134 +188,54 @@
 				en,
 				Base,
 			);
-			mainGroup = A7CCF55D270A021B0087280A;
-			packageReferences = (
-				A7CCF580270A03440087280A /* XCRemoteSwiftPackageReference "Sparkle" */,
-			);
-			productRefGroup = A7CCF567270A021B0087280A /* Products */;
+			mainGroup = E8C0242127FDBC4A00EDE498;
+			productRefGroup = E8C0242B27FDBC4A00EDE498 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A7CCF565270A021B0087280A /* Schemes */,
-				A70F125C270B76ED00559406 /* UnregisterSchemeHandler */,
+				E8C0242927FDBC4A00EDE498 /* Schemes */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		A70F125B270B76ED00559406 /* Resources */ = {
+		E8C0242827FDBC4A00EDE498 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A7CCF564270A021B0087280A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A78D7CC02711991700CE2313 /* Credits.rtf in Resources */,
-				A7CCF56C270A021C0087280A /* Assets.xcassets in Resources */,
-				A7CCF57B270A025E0087280A /* MainWindowController.xib in Resources */,
-				A7CCF56F270A021C0087280A /* MainMenu.xib in Resources */,
-				A7CCF57F270A026C0087280A /* MainViewController.xib in Resources */,
+				E8C0243527FDBC4B00EDE498 /* Preview Assets.xcassets in Resources */,
+				E8C0243227FDBC4B00EDE498 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		A70F1259270B76ED00559406 /* Sources */ = {
+		E8C0242627FDBC4A00EDE498 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A70F1264270B76ED00559406 /* main.swift in Sources */,
-				A70F1262270B76ED00559406 /* UnregisterSchemeHandler.swift in Sources */,
-				A70F126D270B7A1600559406 /* UnregisterSchemeHandlerDelegate.swift in Sources */,
-				A70F126C270B780800559406 /* UnregisterSchemeHandlerProtocol.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A7CCF562270A021B0087280A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A7006299270A1EA3007D13DD /* Entry.swift in Sources */,
-				A7CCF57E270A026C0087280A /* MainViewController.swift in Sources */,
-				A7CCF57A270A025E0087280A /* MainWindowController.swift in Sources */,
-				A7CCF56A270A021B0087280A /* AppDelegate.swift in Sources */,
+				E839647427FDE82400DA1188 /* SchemesToolbar.swift in Sources */,
+				E848E30527FF180700F92C3C /* AppInspector.swift in Sources */,
+				E848E30927FF1F8600F92C3C /* SchemeHandlerList.swift in Sources */,
+				E8C0244427FDBCA700EDE498 /* Entry.swift in Sources */,
+				E8C0244827FDBD8300EDE498 /* LaunchServices.swift in Sources */,
+				E8C0244A27FDC00000EDE498 /* LaunchServicesFunctions.swift in Sources */,
+				E848E30727FF196D00F92C3C /* SchemeHandlerTableView.swift in Sources */,
+				E872B272280031F800D1D3F3 /* HandlerCell.swift in Sources */,
+				E8C0244627FDBD1A00EDE498 /* URLExtensions.swift in Sources */,
+				E8C0244027FDBC8D00EDE498 /* SchemesUIApp.swift in Sources */,
+				E839646A27FDDD5D00DA1188 /* SchemeHandlerTableVC.swift in Sources */,
+				E839646D27FDE51F00DA1188 /* KeyPathArrayDataSource.swift in Sources */,
+				E8C0244127FDBC8E00EDE498 /* ContentView.swift in Sources */,
+				E848E30B27FF29A200F92C3C /* SchemeCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		A70F1267270B76ED00559406 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = A70F125C270B76ED00559406 /* UnregisterSchemeHandler */;
-			targetProxy = A70F1266270B76ED00559406 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		A7CCF56D270A021C0087280A /* MainMenu.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A7CCF56E270A021C0087280A /* Base */,
-			);
-			name = MainMenu.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
-		A70F1269270B76ED00559406 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 3;
-				DEVELOPMENT_TEAM = AWJ83G3EPY;
-				ENABLE_HARDENED_RUNTIME = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = UnregisterSchemeHandler/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = UnregisterSchemeHandler;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				MARKETING_VERSION = 0.2;
-				PRODUCT_BUNDLE_IDENTIFIER = "de.oliver-epper.UnregisterSchemeHandler";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_INSTALL_OBJC_HEADER = NO;
-				SWIFT_OBJC_INTERFACE_HEADER_NAME = "";
-				SWIFT_VERSION = 5.0;
-			};
-			name = Debug;
-		};
-		A70F126A270B76ED00559406 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 3;
-				DEVELOPMENT_TEAM = AWJ83G3EPY;
-				ENABLE_HARDENED_RUNTIME = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = UnregisterSchemeHandler/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = UnregisterSchemeHandler;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				MARKETING_VERSION = 0.2;
-				PRODUCT_BUNDLE_IDENTIFIER = "de.oliver-epper.UnregisterSchemeHandler";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_INSTALL_OBJC_HEADER = NO;
-				SWIFT_OBJC_INTERFACE_HEADER_NAME = "";
-				SWIFT_VERSION = 5.0;
-			};
-			name = Release;
-		};
-		A7CCF571270A021C0087280A /* Debug */ = {
+		E8C0243727FDBC4B00EDE498 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -421,7 +286,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MACOSX_DEPLOYMENT_TARGET = 11.6;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -431,7 +296,7 @@
 			};
 			name = Debug;
 		};
-		A7CCF572270A021C0087280A /* Release */ = {
+		E8C0243827FDBC4B00EDE498 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -476,7 +341,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MACOSX_DEPLOYMENT_TARGET = 11.6;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
@@ -485,62 +350,58 @@
 			};
 			name = Release;
 		};
-		A7CCF574270A021C0087280A /* Debug */ = {
+		E8C0243A27FDBC4B00EDE498 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = Schemes/Schemes.entitlements;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 9;
-				DEVELOPMENT_TEAM = AWJ83G3EPY;
+				CURRENT_PROJECT_VERSION = 42;
+				DEVELOPMENT_ASSET_PATHS = "\"Schemes/Preview Content\"";
+				DEVELOPMENT_TEAM = 4GXF3JAMM4;
 				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Schemes/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "";
-				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
-				INFOPLIST_KEY_NSHumanReadableCopyright = "Oliver Epper";
-				INFOPLIST_KEY_NSMainNibFile = MainMenu;
-				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MARKETING_VERSION = 0.3.4;
-				PRODUCT_BUNDLE_IDENTIFIER = "de.oliver-epper.Schemes";
+				MACOSX_DEPLOYMENT_TARGET = 12;
+				MARKETING_VERSION = 0.5;
+				PRODUCT_BUNDLE_IDENTIFIER = de.zeezide.swift.apps.Schemes;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
-		A7CCF575270A021C0087280A /* Release */ = {
+		E8C0243B27FDBC4B00EDE498 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = Schemes/Schemes.entitlements;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 9;
-				DEVELOPMENT_TEAM = AWJ83G3EPY;
+				CURRENT_PROJECT_VERSION = 42;
+				DEVELOPMENT_ASSET_PATHS = "\"Schemes/Preview Content\"";
+				DEVELOPMENT_TEAM = 4GXF3JAMM4;
 				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Schemes/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "";
-				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
-				INFOPLIST_KEY_NSHumanReadableCopyright = "Oliver Epper";
-				INFOPLIST_KEY_NSMainNibFile = MainMenu;
-				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MARKETING_VERSION = 0.3.4;
-				PRODUCT_BUNDLE_IDENTIFIER = "de.oliver-epper.Schemes";
+				MACOSX_DEPLOYMENT_TARGET = 12;
+				MARKETING_VERSION = 0.5;
+				PRODUCT_BUNDLE_IDENTIFIER = de.zeezide.swift.apps.Schemes;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -550,53 +411,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A70F126B270B76ED00559406 /* Build configuration list for PBXNativeTarget "UnregisterSchemeHandler" */ = {
+		E8C0242527FDBC4A00EDE498 /* Build configuration list for PBXProject "Schemes" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A70F1269270B76ED00559406 /* Debug */,
-				A70F126A270B76ED00559406 /* Release */,
+				E8C0243727FDBC4B00EDE498 /* Debug */,
+				E8C0243827FDBC4B00EDE498 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A7CCF561270A021B0087280A /* Build configuration list for PBXProject "Schemes" */ = {
+		E8C0243927FDBC4B00EDE498 /* Build configuration list for PBXNativeTarget "Schemes" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A7CCF571270A021C0087280A /* Debug */,
-				A7CCF572270A021C0087280A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		A7CCF573270A021C0087280A /* Build configuration list for PBXNativeTarget "Schemes" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A7CCF574270A021C0087280A /* Debug */,
-				A7CCF575270A021C0087280A /* Release */,
+				E8C0243A27FDBC4B00EDE498 /* Debug */,
+				E8C0243B27FDBC4B00EDE498 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		A7CCF580270A03440087280A /* XCRemoteSwiftPackageReference "Sparkle" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/sparkle-project/Sparkle";
-			requirement = {
-				branch = 2.x;
-				kind = branch;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		A7CCF581270A03440087280A /* Sparkle */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = A7CCF580270A03440087280A /* XCRemoteSwiftPackageReference "Sparkle" */;
-			productName = Sparkle;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
-	rootObject = A7CCF55E270A021B0087280A /* Project object */;
+	rootObject = E8C0242227FDBC4A00EDE498 /* Project object */;
 }
